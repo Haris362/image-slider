@@ -33,7 +33,6 @@ setInterval(() => {
 
         if (count >= slides.length) {
                 count = 0;
-                slider.style.transition = "none";
                 slider.style.transform = `translateX(0px)`;
         }
         else {
